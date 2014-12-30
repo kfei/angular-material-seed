@@ -6,9 +6,13 @@ ENV HOME /root
 
 RUN pacman -Syy \
     && pacman -S --noconfirm \
+        curl \
         git \
+        make \
         nodejs \
         ruby \
+        tmux \
+        vim \
     && npm install --global bower gulp \
     && gem install sass
 

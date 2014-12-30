@@ -6,7 +6,7 @@ This is my web application development seed.
   - Ruby: `ruby` and `gem`
   - gulp: `gulp`
   - Sass: `sass`
-  - Git: `git`
+  - and some developer's kits: `curl`, `git`, `make`, `tmux` and `vim`
 
 ## Usage
 
