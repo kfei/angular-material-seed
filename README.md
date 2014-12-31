@@ -1,4 +1,4 @@
-This is my Angular Material application development seed.
+This is a Docker image for my Angular Material application development.
 
 ## Binaries
 

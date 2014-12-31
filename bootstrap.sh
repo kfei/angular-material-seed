@@ -3,7 +3,9 @@
 set -e
 
 # Create directory structure
-mkdir -p vendor config directive service controller
+mkdir -p vendor config
+mkdir -p directives services controllers
+mkdir -p assets/{stylesheets,images}
 
 # Install gulp packages
 [ ! -d node_modules/gulp ] && {
