@@ -10,16 +10,22 @@ This is my Angular Material application development seed.
 
 ## Usage
 
-Build and run the development container:
+Build the development container:
 
 ```bash
 git clone --depth=1 https://github.com/kfei/angular-material-seed
 cd angular-material-seed
 docker build -t angular-material-seed .
-docker run -it -v $PWD/code:/code angular-material-seed
 ```
 
-Inside the container:
+Create project directory and run the container:
+
+```bash
+mkdir my-awesome-project
+docker run -it -v $PWD/my-awesome-project:/code angular-material-seed
+```
+
+Bootstrap the project inside the container:
 
 ```bash
 bootstrap
