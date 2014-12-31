@@ -1,4 +1,4 @@
-This is my web application development seed.
+This is my Angular Material application development seed.
 
 ## Binaries
 
@@ -13,10 +13,10 @@ This is my web application development seed.
 Build and run the development container:
 
 ```bash
-git clone --depth=1 https://github.com/kfei/web-devel-seed
-cd web-devel-seed
-docker build -t web-devel-seed .
-docker run -it -v $PWD/code:/code web-devel-seed
+git clone --depth=1 https://github.com/kfei/angular-material-seed
+cd angular-material-seed
+docker build -t angular-material-seed .
+docker run -it -v $PWD/code:/code angular-material-seed
 ```
 
 Inside the container:
@@ -27,5 +27,7 @@ bootstrap
 
 Note that `bootstrap` will install following packages in the project directory
 (`/code`) if they don't exist:
-  - gulp
-  - angular-material
+  - `gulp`, `gulp-sass`, `gulp-minify-css` and `gulp-minify-html`
+  - `angular-material`
+
+Now start coding in the `/code` directory.

@@ -1,11 +1,18 @@
 #!/bin/bash
 
-stat node_modules/gulp &>/dev/null || {
-    echo "[npm] Installing gulp..."
-    npm update && npm install --save-dev gulp
+set -e
+
+[ ! -d node_modules/gulp ] && {
+    echo "[npm] Installing gulp packages..."
+    npm update
+    npm install --save-dev gulp \
+                           gulp-sass \
+                           gulp-minify-css \
+                           gulp-minify-html
 }
 
-stat vendor/angular-material &>/dev/null || {
+[ ! -d vendor/angular-material ] && {
     echo "[bower] Installing angular-material..."
-    bower update && bower --allow-root install angular-material
+    bower update
+    bower --allow-root install angular-material
 }
