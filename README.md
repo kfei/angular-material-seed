@@ -13,7 +13,7 @@ This is my web application development seed.
 Build and run the development container:
 
 ```bash
-git clone https://github.com/kfei/web-devel-seed
+git clone --depth=1 https://github.com/kfei/web-devel-seed
 cd web-devel-seed
 docker build -t web-devel-seed .
 docker run -it -v $PWD/code:/code web-devel-seed
