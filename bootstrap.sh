@@ -9,6 +9,11 @@ true ${APPNAME:="myFuckingAwesomeProject"}
 # Bootstrap template files
 cp -a /usr/share/angular-material-seed/. /code
 
+# Create directory structure if not exists
+mkdir -p vendor config
+mkdir -p directives services controllers
+mkdir -p assets/{stylesheets,images}
+
 # Install npm packages
 echo "[npm] Installing npm packages..."
 npm update && npm install --save-dev

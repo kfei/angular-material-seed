@@ -7,4 +7,6 @@ app
     $scope.loading = loading;
     $scope.loading.add("task-one");
 
-}]);
+}])
+
+;
