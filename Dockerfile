@@ -21,6 +21,8 @@ RUN echo "alias bower='bower --allow-root'" >> ~/.bashrc \
 
 COPY bootstrap.sh /usr/local/bin/bootstrap
 
+COPY template /usr/share/angular-material-seed
+
 ENTRYPOINT ["/bin/bash"]
 
 VOLUME ["/code"]

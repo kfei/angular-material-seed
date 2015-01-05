@@ -1,0 +1,14 @@
+{
+  "name": "myFuckingAwesomeProject",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "*",
+    "angular-material": "*",
+    "angular-translate": "*",
+    "angular-local-storage": "*",
+    "angular-ui-router": "*"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=0"
+  }
+}

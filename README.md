@@ -28,12 +28,7 @@ docker run -it -v $PWD/my-awesome-project:/code angular-material-seed
 Bootstrap the project inside the container:
 
 ```bash
-bootstrap [project-name]
+bootstrap
 ```
 
-Note that `bootstrap` will install following packages in the project directory
-(`/code`) if they don't exist:
-  - `gulp`, `gulp-sass`, `gulp-minify-css` and `gulp-minify-html`
-  - `angular-material`
-
-Now start coding in the `/code` directory.
+Now start coding in the `/code` directory!
