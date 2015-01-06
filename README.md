@@ -32,3 +32,11 @@ bootstrap
 ```
 
 Now start coding in the `/code` directory!
+
+## About the Template
+
+Some re-usable components included:
+
+  - An example usage of `ui.router`
+  - Loading spinner and a `loading` service
+  - Multiple-language support (with a fancy selector)
