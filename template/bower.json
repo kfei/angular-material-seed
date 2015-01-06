@@ -4,7 +4,7 @@
   "dependencies": {
     "angular": "*",
     "angular-material": "*",
-    "angular-translate": "*",
+    "angular-translate": "2.4.2",
     "angular-local-storage": "*",
     "angular-ui-router": "*"
   },

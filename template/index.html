@@ -22,6 +22,7 @@
     <script src="config/route.js"></script>
     <script src="config/locale.js"></script>
     <script src="services/loading.js"></script>
+    <script src="controllers/lang.js"></script>
     <script src="controllers/index.js"></script>
     <!--
     <script src="index/angular-template.tmp.js"></script>
@@ -33,10 +34,13 @@
       <md-content flex>
         <div layout="column" layout-align="center center">
           <md-progress-circular flex ng-show="!!loading.isLoading('task-one')" layout-padding md-mode="indeterminate"></md-progress-circular>
-          <md-button ng-href="#/index">Index</md-button>
+          <md-button ng-href="#/index" translate>Index</md-button>
           <md-button ng-href="#/state1">State 1</md-button>
           <md-button ng-href="#/state2">State 2</md-button>
         </div>
+      </md-content>
+      <md-content>
+        <md-button ng-click="showLangBottomSheet($event)">Language</md-button></md-button>
       </md-content>
     </div>
     <div flex layout-padding>
